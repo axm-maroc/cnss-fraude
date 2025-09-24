@@ -196,7 +196,7 @@ function App() {
                   <span className="text-white font-bold text-lg">AXM</span>
                 </div>
                 <div>
-                  <h1 className="text-xl font-bold text-slate-900">Solution IA Multi-Agents</h1>
+                  <h1 className="text-xl font-bold text-slate-900">Solution IA NABILA</h1>
                   <p className="text-sm text-slate-600">Détection de Fraude CNSS</p>
                 </div>
               </div>
@@ -497,22 +497,7 @@ function App() {
               })}
             </div>
 
-            {/* Architecture Diagram */}
-            <Card>
-              <CardHeader>
-                <CardTitle>Architecture Technique Détaillée</CardTitle>
-                <CardDescription>
-                  Schéma complet de l'architecture multi-agents AXM
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <img 
-                  src={architectureImg} 
-                  alt="Architecture technique AXM" 
-                  className="w-full h-auto rounded-lg border"
-                />
-              </CardContent>
-            </Card>
+        
           </TabsContent>
 
           {/* Alerts Tab */}
@@ -694,11 +679,6 @@ function App() {
             </Card>
           </TabsContent>
 
-          {/* Interface de Détection Unifiée */}
-          <TabsContent value="detection" className="space-y-6">
-            <UnifiedDetectionInterface />
-          </TabsContent>
-
           {/* Tableau de Bord */}
           <TabsContent value="dashboard" className="space-y-6">
             {/* KPIs en temps réel */}
@@ -866,7 +846,7 @@ function App() {
           <div className="flex justify-between items-center">
             <div>
               <p className="text-sm text-slate-600">
-                © 2025 AXM - Solution IA Multi-Agents pour la Détection de Fraude CNSS
+                © 2025 AXM - Solution IA NABILA pour la Détection de Fraude CNSS
               </p>
               <p className="text-xs text-slate-500 mt-1">
                 Développé avec expertise pour la transformation digitale de la protection sociale marocaine
